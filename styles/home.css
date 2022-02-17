@@ -115,7 +115,7 @@
   backface-visibility: hidden;
 }
 
-img:hover {
+.categories-item > a > img:hover {
   transform: scale(1.1);
 }
 
@@ -163,9 +163,7 @@ img:hover {
 }
 
 .pd-img {
-  background: var(--secondary-color);
   border-radius: 10px;
-  transition: 0.3s ease-in;
 }
 
 .pd-card-btn {
@@ -185,7 +183,7 @@ img:hover {
   .auth-signup {
     display: none;
   }
-  .logo-text {
+  .logotext {
     display: none;
   }
   .link-btn {
