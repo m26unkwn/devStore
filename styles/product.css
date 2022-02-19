@@ -14,7 +14,7 @@
 .filter-product-wrapper {
   grid-area: main;
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 15rem 1fr;
   margin-top: 3rem;
 }
 
@@ -40,7 +40,4 @@
 
 .filter-section-title {
   font-weight: bold;
-}
-
-.pd-container-main {
 }
