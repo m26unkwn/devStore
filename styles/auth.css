@@ -7,7 +7,7 @@
 }
 
 .auth-head {
-  margin: 2rem 0;
+  margin: 2rem 0 1rem 0;
 }
 .head-title {
   font-weight: 400;
@@ -16,7 +16,8 @@
 
 .head-desc > a {
   font-weight: bold;
-  width: 3rem;
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
 .form-wrapper {
@@ -24,7 +25,7 @@
 }
 
 .form-wrapper > * {
-  margin: 1rem 0;
+  margin: 1rem 0 0.5rem 0;
   width: 90%;
 }
 
@@ -34,6 +35,10 @@
   color: var(--danger-color);
   text-decoration: none;
 }
-.form-action > button {
+
+.auth-action {
+  margin: 1rem;
+}
+.auth-action > button {
   width: 100%;
 }
