@@ -158,10 +158,6 @@
   border-radius: 50%;
 }
 
-.pd-wrapper {
-  gap: 1rem;
-}
-
 .pd-img {
   border-radius: 10px;
 }
@@ -189,7 +185,10 @@
   .link-btn {
     display: none;
   }
+  .search-bar {
+    width: 100%;
+  }
   .search-bar > input {
-    width: 20%;
+    width: 100%;
   }
 }
