@@ -179,15 +179,19 @@
   .auth-signup {
     display: none;
   }
+
   .logotext {
     display: none;
   }
+
   .link-btn {
     display: none;
   }
+
   .search-bar {
     width: 100%;
   }
+
   .search-bar > input {
     width: 100%;
   }
