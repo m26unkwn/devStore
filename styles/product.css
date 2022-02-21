@@ -1,4 +1,4 @@
-.main-wrapper {
+.main-wrapper-product {
   display: grid;
   grid-template-areas:
     "header"
