@@ -130,14 +130,22 @@
       </nav>
       <section class="auth-wrapper flex ai-center jc-center">
         <div class="card-container auth-card">
-          <div class="auth-head flex flex-col flex-gap jc-center ai-center">
-            <h3 class="head-title">Login</h3>
-            <p class="head-desc flex flex-row jc-between">
-              <span>Need an account ? </span>
-              <a href="./signup.html" class="link-btn">Signup</a>
-            </p>
+          <div class="auth-head flex flex-col jc-center ai-center">
+            <h3 class="head-title">Sign Up</h3>
           </div>
           <form class="form-wrapper flex flex-col ai-center jc-center">
+            <div class="input-field">
+              <label for="name" value="name"
+                >First Name<span class="imp-input">*</span></label
+              >
+              <input placeholder="Jhone" type="name" />
+            </div>
+            <div class="input-field">
+              <label for="name" value="name"
+                >Last Name<span class="imp-input">*</span></label
+              >
+              <input placeholder="Doe" type="name" />
+            </div>
             <div class="input-field">
               <label for="email" value="email"
                 >Email Address<span class="imp-input">*</span></label
@@ -150,12 +158,13 @@
               >
               <input placeholder="password" type="password" />
             </div>
-            <div class="pass-forget">
-              <a href="#">Forget Password?</a>
-            </div>
             <div class="form-action auth-action">
-              <button class="btn">Login In</button>
+              <button class="btn">Sign Up</button>
             </div>
+            <p class="head-desc flex flex-row jc-start auth-action">
+              <span>Already have an account ? </span>
+              <a href="./login.html" class="link-btn">Login here</a>
+            </p>
           </form>
         </div>
       </section>
